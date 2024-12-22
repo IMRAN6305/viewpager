@@ -651,7 +651,7 @@ class _FilteredListScreenState extends State<FilteredListScreen> {
                                           //     item.filePath.split('/').last;
                                           // final downloadPath =
                                           //     await downloadPdfLocally(
-                                          //         fileName, item.filePath);
+                                          https://github.com/IMRAN6305/viewpager.git    //         fileName, item.filePath);
                                           ScaffoldMessenger.of(context)
                                               .showSnackBar(
                                             const SnackBar(
