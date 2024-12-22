@@ -17,15 +17,19 @@ class CustomTextField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextFormField(
+      maxLines: null,
+      minLines: 5,
       controller: controller,
       decoration: InputDecoration(
         labelText: label,
-        labelStyle: TextStyle(color: AppColors.primary),
+        hintText: 'Enter your message here...',
+
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(8.r),
         ),
         focusedBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(8.r),
+
           borderSide: BorderSide(color: AppColors.primary),
         ),
       ),
