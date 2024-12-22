@@ -33,11 +33,15 @@ Clone this project to your local machine using the command below:
 ```bash
 git clone [https://github.com/yourusername/your-repository-name.git](https://github.com/IMRAN6305/viewpager.git)
 
+
+
+```
 cd viewpager
 
 ## Run this command
 
 flutter pub get
+
 
 ##Images
 
